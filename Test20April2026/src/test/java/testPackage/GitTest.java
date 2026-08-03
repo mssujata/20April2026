@@ -2,7 +2,7 @@ package testPackage;
 
 import org.testng.annotations.Test;
 
-public class GitTestClass {
+public class GitTest {
 
 	@Test
 	public void testGit() {
