@@ -1,8 +1,11 @@
 package testPackage;
 
+import org.testng.annotations.Test;
+
 public class GitTestClass {
 
-	public static void main(String[] args) {
+	@Test
+	public void testGit() {
 		System.out.println("Hello Git");
 
 	}
