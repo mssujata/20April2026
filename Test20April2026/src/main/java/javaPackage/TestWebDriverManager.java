@@ -11,7 +11,7 @@ public class TestWebDriverManager {
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-		Thread.sleep(30000);
+		Thread.sleep(10000);
 		driver.get("https://testautomationpractice.blogspot.com/");
 
 	}
